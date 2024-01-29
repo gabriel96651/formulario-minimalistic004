@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(vector-landscape-illustration.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+div {
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+div h1 {
+    font-size: 60px;
+    color: rgb(247, 247, 247);
+    transition: all 0.5s;
+}
+
+div p {
+    color: rgb(234, 3, 255);
+    font-size: 35px;
+}
+
+div a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    font-weight: bolder;
+    transition: all 0.5s;
+}
+
+div a:hover {
+    color: rgb(51, 191, 247);
+    border-color: white;
+}

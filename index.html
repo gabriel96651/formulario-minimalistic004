@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>formulario04</title>
+</head>
+<body>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+
+            <div class="wraper">
+                <!--@title-->
+                <h1>login</h1>
+                <!--@input-box-->
+                <div class="inputbox">
+                    <input class="input" type="text" placeholder="email" autocomplete="off" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="inputbox">
+                    <input class="input" type="password" placeholder="password" autocomplete="off" required>
+                    <i class='bx bxs-lock-alt' ></i>
+                </div>
+                <!--@remember-->
+                <div class="remember">
+                
+                     <label for="">
+                        <input type="checkbox">remember me
+                    </label>
+                    <a href="#">forgot password</a>
+                </div>
+                <button class="btn" type="submit">login</button>
+                <p>don't have an account? <a href="#">register</a></p>
+            </div>
+
+            <input type="hidden" name="accessKey" value="38a4a79b-c452-45f4-974d-6b08f4e57f41">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
+
+
+        </form>
+</body>
+</html>

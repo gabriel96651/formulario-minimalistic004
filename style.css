@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url(vector-landscape-illustration.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.wraper {
+    border: 2px solid rgba(128, 128, 128, 0.507);
+    padding: 30px 40px;
+    border-radius: 20px;
+    width: 420px; 
+    background: rgba(128, 0, 128, 0.233);
+    backdrop-filter: blur(20px);
+}
+
+.wraper h1 {
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.wraper .inputbox {
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    position: relative;
+}
+
+.inputbox .input {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 40px;
+    padding: 20px 75px 20px 25px;
+    border: 2px solid rgba(98, 23, 141, 0.637);
+    outline: none;
+}
+
+.inputbox i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+}
+
+::placeholder {
+    color: black;
+    font-weight: 600;
+}
+
+.wraper .remember {
+     display: flex;
+     justify-content: space-between;
+     margin-top: -30px;
+     font-weight: 500;
+     margin: 0 11px;
+    color: white;
+}
+
+.wraper .remember a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    width: 100%;
+    border-radius: 40px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 20px 0;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: purple;
+    color: white;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0 4px;
+    transition: all 0.5s;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
